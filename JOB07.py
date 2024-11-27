@@ -1,5 +1,5 @@
-word = "abcdefghijklmnopqrstuvwxyz"*10
-length = len(word)
+word = "abcdefghijklmnopqrstuvwxyz" * 10
+length = len(word) / 12
 i = 1
 
 while i <= length:
