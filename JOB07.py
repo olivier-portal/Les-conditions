@@ -1,7 +1,8 @@
-word = "abcdefghijklmnopqrstuvwxyz"
-x = ""
+word = "abcdefghijklmnopqrstuvwxyz"*10
+length = len(word)
+i = 1
 
-for i in word:
-    x += i
-    print(x)
-print()
+while i <= length:
+    line = word[:i]
+    i += 2
+    print(line)
